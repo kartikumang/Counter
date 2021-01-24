@@ -1,0 +1,37 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: url(https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
+    background-position: center;
+    background-size: cover;
+    font-family: Montserrat;
+}
+.counter-box{
+    flex: 0 0 50%;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 1px 1px 4px 4px rgb(170, 167, 167);
+}
+.counter{
+    font-size: 90px;
+}
+.btn{display: block;
+    padding: 8px 12px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.63);
+    color: black;
+    font-family: Montserrat;
+   margin: auto;
+   margin-top: 10px;
+}
+.btn:hover{
+    color:white ;
+    background-color: black;
+    cursor: pointer;
+}
